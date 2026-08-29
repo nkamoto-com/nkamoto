@@ -1,0 +1,36 @@
+{
+  "name": "nkamoto",
+  "version": "1.8.0",
+  "description": "NKAMOTO is a security-focused Bitcoin wallet CLI for generating BIP-39 wallets, managing Bitcoin keys, addresses, and QR codes from the terminal.",
+  "type": "module",
+  "bin": {
+    "nkamoto": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkamoto-com/nkamoto.app.git"
+  },
+  "homepage": "https://nkamoto.app",
+  "bugs": {
+    "url": "https://github.com/nkamoto-com/nkamoto.app/issues"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@scure/bip32": "^1.7.0",
+    "@scure/bip39": "^2.4.0",
+    "@scure/btc-signer": "^2.4.0",
+    "bip32": "^5.0.1",
+    "qrcode": "^1.5.4"
+  }
+}
